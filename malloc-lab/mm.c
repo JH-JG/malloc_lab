@@ -503,5 +503,4 @@ static void remove_from_free_list(void *bp){
     if (next_blkp != NULL){
         SET_PRED(next_blkp, prev_blkp);
     }
-
 }
