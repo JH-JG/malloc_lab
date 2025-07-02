@@ -475,7 +475,6 @@ static void update_next_prev_alloc(void *bp, int alloc){
 
 
 
-
 static void add_free_list(void *bp, size_t asize){
     int list_num = select_list(asize);
     void *first_blkp = seg_free_lists[list_num];
